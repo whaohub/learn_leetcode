@@ -47,7 +47,7 @@ _deps
 
 
 #ignore dir
-./build
+build/*
 
 
 #ignore gdb config
