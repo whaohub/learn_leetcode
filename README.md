@@ -1,45 +1,14 @@
-# auto-commit
+# merge_two_sort_vector.cpp
+给你两个按 非递减顺序 排列的整数数组 nums1 和 nums2，另有两个整数 m 和 n ，分别表示 nums1 和 nums2 中的元素数目。
 
-🌳 Making green your Github stats, powered by [Github Actions](https://github.com/features/actions)
+请你 合并 nums2 到 nums1 中，使合并后的数组同样按 非递减顺序 排列。
 
-[![Auto commit](https://github.com/mazipan/auto-commit/workflows/Auto%20commit/badge.svg)](https://github.com/mazipan/auto-commit/actions?query=workflow%3A%22Auto+commit%22)
+注意：最终，合并后数组不应由函数返回，而是存储在数组 nums1 中。为了应对这种情况，nums1 的初始长度为 m + n，其中前 m 个元素表示应合并的元素，后 n 个元素为 0 ，应忽略。nums2 的长度为 n 。
 
-![](screenshoot.png)
+# remove_element
 
-## Make it your own
+给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。
 
-- Create your own repo with click "**Use this template**" button (forked repo will not work)
+不要使用额外的数组空间，你必须仅使用 O(1) 额外空间并 原地 修改输入数组。
 
-Or just do in the manual way:
-
-- Create your own repo
-- Copy file `.github/workflows/autocommit.yml` and `LAST_UPDATED` to your repo
-- Change the `email` and `name` information on file [autocommit.yml, line 29 and 30](https://github.com/mazipan/auto-commit/blob/master/.github/workflows/autocommit.yml#L29)
-- Change the scheduling time on file [autocommit.yml, line 10](https://github.com/mazipan/auto-commit/blob/master/.github/workflows/autocommit.yml#L10). You can use [crontab.guru](https://crontab.guru/) if you are not familiar with the cron schedule string. For first time, you can try to run it in every hour with string `1 * * * *` .
-- Consider to support me, at least click the 🌟 button
-
-## Article (in Bahasa Indonesia)
-
-- https://mazipan.space/membuat-commit-otomatis-ke-github/
-
-## Repo using this auto-commit
-
-- You can add your repo here
-
-
-## Credits
-
-- [Github Actions](https://github.com/features/actions)
-- [ad-m/github-push-action](https://github.com/ad-m/github-push-action)
-
-## Consider to Support
-
-- 👉 🇮🇩 [Trakteer](https://trakteer.id/mazipan?utm_source=github)
-- 👉 🌍 [BuyMeACoffe](https://www.buymeacoffee.com/mazipan?utm_source=github)
-- 👉 🌍 [Paypal](https://www.paypal.me/mazipan?utm_source=github)
-- 👉 🌍 [Ko-Fi](https://ko-fi.com/mazipan)
-
----
-
-© 2020 Crafted by Irfan Maulana
-
+元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。
