@@ -49,6 +49,10 @@ _deps
 #ignore dir
 build/*
 
+#cache dir
+.cache/*
 
+#bin dif
+*/bin/*
 #ignore gdb config
 .gdb_history
