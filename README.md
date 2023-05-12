@@ -12,3 +12,24 @@
 不要使用额外的数组空间，你必须仅使用 O(1) 额外空间并 原地 修改输入数组。
 
 元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。
+
+# 删除有序数组中的重复项
+提供一个升序排列的数组`nums`，原地删除重复出现的元素，返回唯一元素的个数，且不能改变元素的相对位置
+
+```
+
+判题标准:
+
+系统会用下面的代码来测试你的题解:
+
+int[] nums = [...]; // 输入数组
+int[] expectedNums = [...]; // 长度正确的期望答案
+
+int k = removeDuplicates(nums); // 调用
+
+assert k == expectedNums.length;
+for (int i = 0; i < k; i++) {
+    assert nums[i] == expectedNums[i];
+}
+
+```
