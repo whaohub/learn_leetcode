@@ -48,7 +48,7 @@ _deps
 
 #ignore dir
 build/*
-
+*/build
 #cache dir
 .cache/*
 
