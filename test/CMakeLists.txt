@@ -6,11 +6,12 @@ LINK_DIRECTORIES(/opt/gtest/lib
 
 SET(CMAKE_BUILD_TYPE "Debug")
 SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g2 -ggdb")
-SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 
 add_executable(
     ${PROJECT_NAME} 
-    unit_test_remove_dup.cpp
+    #unit_test_remove_dup.cpp
+    ../src/valid_palindrome.cpp
+    unit_vaild_palindrome.cc
     )
 
 target_include_directories(unit_test
