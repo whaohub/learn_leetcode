@@ -17,7 +17,6 @@ class Solution {
     while (substr_pos < s.size() && oristr_pos < t.size()) {
       if (s[substr_pos] == t[oristr_pos]) {  //^==*
         substr_pos++;
-        oristr_pos++;
       }
       oristr_pos++;  //^!=*
     }
