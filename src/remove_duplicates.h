@@ -5,11 +5,11 @@
 //[1	1	1	2	2	5]
 // ^	*
 // ^		*
-// ^                    *  diff swap(^ +1,*) ^++, *++
+// ^      *  diff swap(^ +1,*) ^++, *++
 //[1	2	1	1	2	5]
-//      ^                       *
-//      ^                                *  diff swap(^+1, *)
-//              ^
+//    ^     *
+//    ^       *  diff swap(^+1, *)
+//      ^
 // fast < size slow < fast
 //
 class Solution {
