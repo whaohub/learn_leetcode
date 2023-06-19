@@ -12,8 +12,10 @@ add_executable(
     #unit_test_remove_dup.cpp
     #../src/valid_palindrome.cpp
     #unit_vaild_palindrome.cc
-    ../src/is_subsequence.cc
-    unit_test_is_subsequence.cc
+    #../src/is_subsequence.cc
+    #unit_test_is_subsequence.cc
+    ../src/has_cycle.cpp
+    unit_test_has_cycle.cc
     )
 
 target_include_directories(unit_test
