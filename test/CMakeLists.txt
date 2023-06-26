@@ -14,8 +14,12 @@ add_executable(
     #unit_vaild_palindrome.cc
     #../src/is_subsequence.cc
     #unit_test_is_subsequence.cc
-    ../src/has_cycle.cpp
-    unit_test_has_cycle.cc
+    #../src/has_cycle.cpp
+    #unit_test_has_cycle.cc
+    #../src/findkth_largest.cpp
+    #unit_test_findkthlargest.cpp
+    ../src/majority_element.cpp
+    unit_test_majority_element.cpp
     )
 
 target_include_directories(unit_test
