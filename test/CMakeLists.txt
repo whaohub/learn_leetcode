@@ -20,8 +20,12 @@ add_executable(
     #unit_test_findkthlargest.cpp
     #../src/majority_element.cpp
     #unit_test_majority_element.cpp
-    ../src/climb_stairs.cpp
-    unit_test_climb_stairs.cpp
+    #../src/climb_stairs.cpp
+    #unit_test_climb_stairs.cpp
+    #../src/topK_frequent_elements.cpp
+    #unit_test_topk_frequent_elem.cpp
+    ../src/lru_cache.cpp
+    unit_test_lru_cache.cpp
     )
 
 target_include_directories(unit_test
