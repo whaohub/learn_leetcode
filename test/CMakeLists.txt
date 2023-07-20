@@ -24,8 +24,10 @@ add_executable(
     #unit_test_climb_stairs.cpp
     #../src/topK_frequent_elements.cpp
     #unit_test_topk_frequent_elem.cpp
-    ../src/lru_cache.cpp
-    unit_test_lru_cache.cpp
+    #../src/lru_cache.cpp
+    #unit_test_lru_cache.cpp
+    ../src/removeNth_from_end.cpp
+    unit_test_removeNth_from_end.cpp
     )
 
 target_include_directories(unit_test
