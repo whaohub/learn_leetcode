@@ -26,8 +26,10 @@ add_executable(
     #unit_test_topk_frequent_elem.cpp
     #../src/lru_cache.cpp
     #unit_test_lru_cache.cpp
-    ../src/removeNth_from_end.cpp
-    unit_test_removeNth_from_end.cpp
+    #../src/removeNth_from_end.cpp
+    #unit_test_removeNth_from_end.cpp
+    ../src/find_fist_and_last_pos_insort.cpp
+    unit_test_first_last_pos.cpp
     )
 
 target_include_directories(unit_test
