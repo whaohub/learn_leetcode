@@ -32,8 +32,10 @@ add_executable(
     #unit_test_first_last_pos.cpp
     #../src/reverse_linklist.cpp
     #unit_test_reverse_linklist.cpp
-    ../src/two_stack_impl_queue.cpp
-    unit_test_two_stack_impl_qu.cpp
+    #../src/two_stack_impl_queue.cpp
+    #unit_test_two_stack_impl_qu.cpp
+    ../src/longest_substring.cpp
+    unit_test_longest_substring.cpp
     )
 
 target_include_directories(unit_test
