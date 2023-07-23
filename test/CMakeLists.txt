@@ -28,8 +28,12 @@ add_executable(
     #unit_test_lru_cache.cpp
     #../src/removeNth_from_end.cpp
     #unit_test_removeNth_from_end.cpp
-    ../src/find_fist_and_last_pos_insort.cpp
-    unit_test_first_last_pos.cpp
+    #../src/find_fist_and_last_pos_insort.cpp
+    #unit_test_first_last_pos.cpp
+    #../src/reverse_linklist.cpp
+    #unit_test_reverse_linklist.cpp
+    ../src/two_stack_impl_queue.cpp
+    unit_test_two_stack_impl_qu.cpp
     )
 
 target_include_directories(unit_test
